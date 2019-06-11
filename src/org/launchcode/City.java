@@ -53,11 +53,11 @@ public class City {
         return state;
     }
 
-    public int getPopulation() {
+    public Integer getPopulation() {
         return population;
     }
 
-    public double getArea() {
+    public Double getArea() {
         return area;
     }
 }

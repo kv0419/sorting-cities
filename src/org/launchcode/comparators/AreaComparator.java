@@ -4,13 +4,10 @@ import org.launchcode.City;
 
 import java.util.Comparator;
 
-/**
- * Created by LaunchCode
- */
-public class NameComparator implements Comparator<City> {
-
+public class AreaComparator implements Comparator<City> {
     @Override
     public int compare(City o1, City o2) {
-        return o1.getState().compareTo(o2.getState());
+        return o2.getArea().compareTo(o1.getArea());
     }
 }
+
